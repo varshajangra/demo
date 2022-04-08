@@ -26,7 +26,7 @@ process.stdin.setEncoding('ascii');
 
 var input_stdin = "";
 var input_stdin_array = "";
-var input_currentline = 0;
+var input_currentline = 2;
 
 process.stdin.on('data', function (data) {
     input_stdin += data;
